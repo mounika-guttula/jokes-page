@@ -1,0 +1,41 @@
+/* Home.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+.jokes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.jokes-table th,
+.jokes-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.jokes-table th {
+  background-color: #cbfadc;
+  color: rgb(59, 58, 58);
+}
+
+.jokes-table td {
+  background-color: #fefefe;
+}
+.heading-top {
+  font-weight: bold;
+  font-size: 28px;
+  color: aliceblue;
+  background-color: rgb(46, 183, 183);
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .jokes-table th,
+  .jokes-table td {
+    padding: 4px;
+    font-size: 14px;
+  }
+}
