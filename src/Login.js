@@ -38,8 +38,8 @@ const Login = () => {
     if (Object.keys(formErrors).length === 0) {
       // Form is valid, check credentials
       if (
-        formData.username === 'dummyuser' &&
-        formData.password === 'dummypassword'
+        formData.username === 'username' &&
+        formData.password === 'password'
       ) {
         // Dummy login successful
         setLoginError('')
